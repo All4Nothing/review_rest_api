@@ -12,7 +12,7 @@ var app = express();
 
 // Set up mongoose connection
 var mongoose = require('mongoose');
-var mongoDB = 'mongodb+srv://sd081104:ghsekrhfh56@review.pivuc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+var mongoDB = 'mongodb+srv://sd081104:<password>@review.pivuc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 mongoose.connect(mongoDB);
 mongoose.Promise = global.Promise;
 var db = mongoose.connection;
